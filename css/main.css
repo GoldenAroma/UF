@@ -372,5 +372,9 @@ div.text-background {
     .produkt-text{
       font-size: 3.3vw;
     }
+    .parallax1 {
+      min-height: 70%;
+
+    }
 
 }
