@@ -186,6 +186,12 @@ div.text-background {
       justify-content: center;
   }
 
+  .flexbox2 {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
   .pic {
   	margin-bottom: 5%;
   }
@@ -317,6 +323,11 @@ div.text-background {
       clear: both;
       display: table;
     }
+    .flexbox2 {
+      width: 98%;
+      clear: both;
+      display: table;
+      }
     .pic {
       margin-left: 10%;
       margin-right: 10%;
