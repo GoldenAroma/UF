@@ -186,16 +186,13 @@ div.text-background {
       justify-content: center;
   }
 
-  .flexbox2 {
-        margin: auto;
-        display: flex;
-        justify-content: center;
-    }
 
   .pic {
   	margin-bottom: 5%;
   }
-
+  .pic1 {
+    margin-bottom: 5%;
+  }
 
 
 .parallax1 {
@@ -323,12 +320,14 @@ div.text-background {
       clear: both;
       display: table;
     }
-    .flexbox2 {
-      width: 98%;
-      clear: both;
-      display: table;
-      }
     .pic {
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 0%;
+    	margin-bottom: 0%;
+      width: 80%;
+    }
+    .pic1 {
       margin-left: 10%;
       margin-right: 10%;
       margin-top: 0%;
@@ -372,6 +371,10 @@ div.text-background {
     }
     .pic {
       width: 100%;
+      margin:auto;
+    }
+    .pic1 {
+      width: 98%;
       margin:auto;
     }
     .footer > div {
