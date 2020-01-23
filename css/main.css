@@ -190,9 +190,6 @@ div.text-background {
   .pic {
   	margin-bottom: 5%;
   }
-  .pic1 {
-    margin-bottom: 5%;
-  }
 
 
 .parallax1 {
@@ -327,13 +324,7 @@ div.text-background {
     	margin-bottom: 0%;
       width: 80%;
     }
-    .pic1 {
-      margin-left: 10%;
-      margin-right: 10%;
-      margin-top: 0%;
-    	margin-bottom: 0%;
-      width: 80%;
-    }
+
     .footer > div {
       font-size: 2.3vw;
     }
@@ -374,11 +365,7 @@ div.text-background {
       margin:auto;
 
     }
-    .pic1 {
-      width: 100%;
-      margin:auto;
-      border: 0px;
-    }
+    
     .footer > div {
       font-size: 3.3vw;
     }
