@@ -1,0 +1,376 @@
+.full-size {
+  width: 100%;
+  height: 100%; }
+
+.viewport-full-size {
+  width: 100vw;
+  height: 100vh; }
+
+.full-width {
+  width: 100%; }
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+background: #fff;
+color: #000;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+margin: 0 auto;
+height: 100%;
+width: 100%;
+}
+
+div.top {
+    background-color: #000;
+    height: 20px;
+    padding-top: 67px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.menu-links {
+	float: left;
+	list-style-type: none;
+}
+
+.links {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5vw;
+  padding: 20px;
+  padding-bottom: 0px;
+  font-weight: bold;
+  border-top: 3px solid transparent;
+}
+  .links:hover {
+      border-top: 3px solid #553c25;
+      opacity: 1;
+      background-color: #dd9453;
+
+  }
+
+
+div.top-header {
+	background: #085025;
+	height: 37px;
+	width: 100%;
+	z-index: 3;
+	border-top: 4px solid #553c25;
+  position: fixed;
+}
+
+#fixedlogga{
+  padding-top: 20px;
+  height: 100px;
+}
+
+div.top-background{
+  background: #553c25;
+  height: 107px;
+  position: top;
+  width: 100%;
+}
+
+
+.GoldenAroma{
+  width: 100%;
+  text-align: center;
+
+}
+
+.GoldenAromaborder{
+  width: 100%;
+  text-align: center;
+  border-top: 4px solid #553c25;
+  border-bottom: 4px solid #553c25;
+}
+
+.shop{
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 10vw;
+  font-weight: bold;
+}
+
+.QA{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 70%;
+  background-color: #e19500;
+  border: 1px solid black;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  text-align: center;
+  box-shadow: 10px 10px 10px 10px black;
+  opacity: 0.93;
+}
+
+.QAtext{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #000000;
+  font-size: 1.3vw;
+}
+
+.QAlink{
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
+  border-top: 3px solid transparent;
+}
+
+.produkt {
+  text-align: center;
+}
+
+.produkt-text{
+	width: 70%;
+  margin-left: 12%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+	background: #085025;
+  padding: 3% 3%;
+  box-shadow: 10px 10px 10px 10px black;
+  text-align: center;
+}
+
+
+.helptohelp{
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding-top: 5%;
+  }
+
+div.text-background {
+  position: absolute;
+	width: 70%;
+  top: 90%;
+  margin-left: 12%;
+	background: #085025;
+  opacity: 0.93;
+	display:block;
+  justify-content: space-around;
+  padding: 3% 3%;
+  font-size: 1.3vw;
+  box-shadow: 10px 10px 10px 10px black;
+}
+
+.backgroundbox{
+  font-size: 1.3vw;
+  width: 70%;
+  color: #e19500;
+  }
+
+
+.flexbox {
+      margin: auto;
+      display: flex;
+      justify-content: center;
+  }
+
+  .pic {
+  	margin-bottom: 5%;
+  }
+
+
+
+.parallax1 {
+  /* The image used */
+  background-image: url("https://sites.google.com/site/bildergoldenaroma/home/DSC_0047%20(kopia).jpeg");
+
+  /* Set a specific height */
+  min-height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 107px;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("https://sites.google.com/site/bildergoldenaroma/home/DSC_0076.jpeg");
+
+  /* Set a specific height */
+  min-height: 60%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 107px;
+}
+
+
+
+
+.fa {
+  padding: 5%;
+  font-size: 1vw;
+  width: 7%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.footer{
+  background-color: #085025;
+  color: #e19500;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+  border-top: 4px solid #553c25;
+  display: flex;
+}
+
+.footer > div {
+  margin: 2%;
+  padding: 3%;
+  font-size: 1.3vw;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .links {
+    font-size: 2vw;
+  }
+  .QAtext{
+    font-size: 1.8vw;
+  }
+  div.text-background {
+    font-size: 1.8vw;
+  }
+  .backgroundbox{
+    font-size: 1.8vw;
+    }
+    .footer > div {
+      font-size: 1.8vw;
+    }
+    .fa {
+      font-size: 1.8vw;
+    }
+    .produkt-text{
+      font-size: 1.8vw;
+    }
+    #fixedlogga{
+      padding-top: 40px;
+      height: 60px;
+    }
+}
+@media screen and (max-width: 850px) {
+  .links {
+    font-size: 2.5vw;
+  }
+  .QAtext{
+    margin-left: 13%;
+    margin-right: 13%;
+    font-size: 2.3vw;
+  }
+  div.text-background {
+    font-size: 2.3vw;
+  }
+  .backgroundbox{
+    font-size: 2.3vw;
+    }
+    .flexbox {
+      clear: both;
+      display: table;
+    }
+    .pic {
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 0%;
+    	margin-bottom: 0%;
+      width: 80%;
+    }
+    .footer > div {
+      font-size: 2.3vw;
+    }
+    .fa {
+      font-size: 2.3vw;
+    }
+    .produkt-text{
+      font-size: 2.3vw;
+    }
+    #fixedlogga{
+      padding-top: 0px;
+      height: 45px;
+    }
+}
+@media screen and (max-width: 450px) {
+  .links {
+    font-size: 3.5vw;
+    padding: 10px;
+  }
+  .QAtext{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 3.3vw;
+  }
+  .QA{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+  div.text-background {
+    font-size: 3.3vw;
+  }
+  .backgroundbox{
+    font-size: 3.3vw;
+    }
+    .pic {
+      width: 100%;
+      margin:auto;
+    }
+    .footer > div {
+      font-size: 3.3vw;
+    }
+    .fa {
+      font-size: 3.3vw;
+    }
+    .produkt-text{
+      font-size: 3.3vw;
+    }
+
+}
