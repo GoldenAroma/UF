@@ -372,10 +372,12 @@ div.text-background {
     .pic {
       width: 100%;
       margin:auto;
+
     }
     .pic1 {
-      width: 98%;
+      width: 100%;
       margin:auto;
+      border: 0px;
     }
     .footer > div {
       font-size: 3.3vw;
