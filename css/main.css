@@ -111,7 +111,7 @@ div.top-background{
   margin-top: 10%;
   margin-bottom: 10%;
   width: 70%;
-  background-color: #e19500;
+  background-color: #fff;
   border: 1px solid black;
   filter: alpha(opacity=60); /* For IE8 and earlier */
   text-align: center;
@@ -145,7 +145,7 @@ div.top-background{
   margin-left: 12%;
   margin-top: 2%;
   margin-bottom: 5%;
-	background: #085025;
+	background: #fff;
   padding: 3% 3%;
   box-shadow: 10px 10px 10px 10px black;
   text-align: center;
@@ -164,7 +164,7 @@ div.text-background {
 	width: 70%;
   top: 90%;
   margin-left: 12%;
-	background: #085025;
+	background: #fff;
   opacity: 0.93;
 	display:block;
   justify-content: space-around;
@@ -365,7 +365,7 @@ div.text-background {
       margin:auto;
 
     }
-    
+
     .footer > div {
       font-size: 3.3vw;
     }
